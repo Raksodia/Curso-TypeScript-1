@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Raksodia/Curso-TypeScript-1#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
     "eslint": "^8.24.0",
     "typescript": "^4.8.4"
   }

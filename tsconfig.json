@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         /* Opciones básicas */
-        "target": "es5",                          /* Indica la versión de ECMAScript: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' o 'ESNEXT'. */
+        "target": "ES2015",                          /* Indica la versión de ECMAScript: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' o 'ESNEXT'. */
         "module": "commonjs",                     /* Indica el tipo de formato de módulos: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
         // "allowJs": true,                       /* Permite que archivos .js sean compilados. */
         // "checkJs": true,                       /* Reporta errores en archivos .js. */

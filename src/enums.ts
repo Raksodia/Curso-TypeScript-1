@@ -1,5 +1,5 @@
 // Tipo numérico:
-enum Piso1 {
+enum Floor {
     Primero = 1,
     Segundo,
     Tercero,
@@ -12,18 +12,18 @@ enum TipoCuarto {
     Triple = 'triple'
 }
 
-let piso: Piso1 = Piso1.Primero;
+let floor: Floor = Floor.Primero;
 
-interface Cuarto1 {
+interface Cuartos {
     id: number,
-    tipo1: TipoCuarto,
-    piso2: Piso1,
+    TypeFloor: TipoCuarto,
+    floor: Floor,
     precioNoche: number
 }
 
-const cuarto: Cuarto1 = {
+const room: Cuartos = {
     id: 10,
-    tipo1: TipoCuarto.Individual,
-    piso2: Piso1.Segundo,
+    TypeFloor: TipoCuarto.Individual,
+    floor: Floor.Segundo,
     precioNoche: 80
 }

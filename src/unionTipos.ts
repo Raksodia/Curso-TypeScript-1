@@ -4,7 +4,7 @@ pruebaTresTipos = 'String';
 pruebaTresTipos = 123;
 //pruebaTresTipos = Array<string>; //Tipo de Dato Errado
 
-function calcularPromedio(valores: number | number[], total?: number) : number | never {
+function calcularPromedio(valores: number | number[], total?: number) : number | never {// Operadpr ? es para indicar que el parametro es opcional
     if(typeof valores === 'number' && total){
         return valores / total;
     }

@@ -15,3 +15,8 @@ function calcularPromedio(valores: number | number[], total?: number) : number |
 
     throw Error('Parametros No Son Validos.')
 }
+
+calcularPromedio([10,34,56,78]);
+calcularPromedio(156,21);
+calcularPromedio(0,3);
+calcularPromedio([]);

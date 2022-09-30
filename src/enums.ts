@@ -16,14 +16,14 @@ let floor: Floor = Floor.Primero;
 
 interface Cuartos {
     id: number,
-    TypeFloor: TipoCuarto,
+    TypeRoom: TipoCuarto,
     floor: Floor,
     precioNoche: number
 }
 
 const room: Cuartos = {
     id: 10,
-    TypeFloor: TipoCuarto.Individual,
+    TypeRoom: TipoCuarto.Individual,
     floor: Floor.Segundo,
     precioNoche: 80
 }

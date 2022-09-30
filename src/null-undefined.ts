@@ -6,7 +6,10 @@ interface Persona {
     apellido: undefined,
 }
 
-const conocido : Persona = {nombre:'Nombre de Fulano'};
+const conocido : Persona = {
+    nombre: 'Nombre de Fulano',
+    apellido: undefined
+};
 
 function conocerNombre(persona: Persona): string{
     //return persona.apellido; //produce error

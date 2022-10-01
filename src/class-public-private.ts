@@ -28,4 +28,4 @@ class Vehiculo1 {
 
 }
 
-const miVehiculo1 = new Vehiculo('Nissan', 'negro', 4);
+const miVehiculo1 = new Vehiculo1('Nissan', 'negro', 4);

@@ -49,7 +49,7 @@ class Vehiculo6 extends Transporte1 {
 
     _numeroRuedas: number;
 
-    constructor(marca: string, color: Color, numeroRuedas: number) {
+    constructor(marca: string, color: Color6, numeroRuedas: number) {
         super(marca, color);
         this._numeroRuedas = numeroRuedas;
     }
